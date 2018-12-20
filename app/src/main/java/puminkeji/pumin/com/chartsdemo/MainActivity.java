@@ -123,8 +123,10 @@ public class MainActivity extends AppCompatActivity {
         l1.setLineWidth(2f);
 //设置曲线的颜色
         l1.setColor(Color.rgb(244, 117, 117));
+        // 设置平滑曲线；注释掉则为折线
+        l1.setMode(LineDataSet.Mode.HORIZONTAL_BEZIER);
 //设置曲率,0.05f-1f  1为折线
-        l1.setCubicIntensity(0.1f);
+        l1.setCubicIntensity(0.6f);
 
 //设置有圆点
         l1.setDrawCircles(true);
