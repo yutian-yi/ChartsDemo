@@ -138,7 +138,7 @@ public class MainActivity extends AppCompatActivity {
         l1.setCircleColorHole(Color.rgb(244, 117, 117));
 
 //设置不显示数值
-        l1.setDrawValues(false);
+        l1.setDrawValues(true);
 
         List<ILineDataSet> lineDataSetArrayList = new ArrayList<>();
         lineDataSetArrayList.add(l1);
